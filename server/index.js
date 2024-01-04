@@ -28,8 +28,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		 origin: "http://localhost:3000",
-		// origin: "https://mern-7uoh.vercel.app/",
+		//  origin: "http://localhost:3000",
+		origin: "https://mern-big-db.vercel.app/",
 		credentials: true,
 	})
 );
